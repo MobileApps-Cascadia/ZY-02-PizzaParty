@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="hungry">#9C2602</color>
     <color name="hungry_dark">#732912</color>
+    <color name= "hungrier">#9C27B0</color>
+    <color name= "hungry_light">#F44336</color>
 </resources>

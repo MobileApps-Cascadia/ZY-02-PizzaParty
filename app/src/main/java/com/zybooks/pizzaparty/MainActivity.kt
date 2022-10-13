@@ -36,8 +36,8 @@ class MainActivity : AppCompatActivity() {
             else -> PizzaCalculator.HungerLevel.RAVENOUS
         }
         // TODO: Get the number of pizzas needed by first creating a Pizza Calculator model
-        //val calculator =
-        val totalPizzas = 0
+        val calculator = PizzaCalculator(numAttend, hungerLevel)
+        val totalPizzas = calculator.totalPizzas
 
         // Place totalPizzas into the string resource and display
         val totalText = getString(R.string.total_pizzas,totalPizzas)
